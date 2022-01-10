@@ -34,6 +34,7 @@ a,
 ul {
 	text-decoration: none;
 	list-style: none;
+	transition: .3s;
 }
 
 input,
@@ -57,6 +58,12 @@ textarea {
 
 .btn {
 	padding: 15px 20px;
+	transition: .3s;
+}
+
+.btn:hover{
+	box-shadow: 3px 4px 5px 0 #0b4066;
+	text-decoration: underline;
 }
 
 /* header */
@@ -108,6 +115,11 @@ textarea {
 	font-size: 13px;
 	line-height: 17px;
 	color: black;
+	transition: .3s;
+}
+
+.item-link:hover{
+	text-decoration: underline;
 }
 
 .item-img {
@@ -115,9 +127,11 @@ textarea {
 }
 
 .header__nav-items {
+	transition: .3s;
 	display: flex;
 	justify-content: space-around;
 }
+
 
 .header__nav-link {
 	text-transform: uppercase;
@@ -127,7 +141,15 @@ textarea {
 	color: black;
 }
 
-/* header */
+.header__nav-item{
+	transition: .3s;
+}
+
+.header__nav-item:hover{
+	transform: translateY(-5px);
+}
+
+/* /header */
 
 /* hero */
 
@@ -177,7 +199,7 @@ textarea {
 }
 
 
-.hero .slick-arrow { /* поменяй hero на нужный класс */
+.hero .slick-arrow { 
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -213,11 +235,11 @@ textarea {
 	outline: none;
 }
 
-.hero .slick-dots li button { /* поменяй hero на нужный класс */
+.hero .slick-dots li button {
 	background-color: rgba(255, 255, 255, 0.4);
 }
 
-.hero .slick-dots .slick-active button { /* поменяй hero на нужный класс */
+.hero .slick-dots .slick-active button { 
 	background-color: rgba(255, 255, 255, 1);
 }
 
@@ -315,7 +337,7 @@ textarea {
 }
 
 .about__item:hover {
-	background: #005FA3;
+	background: #1da1ff;
 }
 
 
@@ -359,20 +381,20 @@ textarea {
 	margin-bottom: 70px;
 }
 
-.client .slick-arrow { /* поменяй hero на нужный класс */
+.client .slick-arrow { 
 	background-color: rgba(0, 95, 163, 0.2);
 }
 
-.client .slick-arrow:hover {  /* поменяй hero на нужный класс */
+.client .slick-arrow:hover { 
 	background-color: rgba(0, 95, 163, 1);
 }
 
 
-.client .slick-dots li button { /* поменяй hero на нужный класс */
+.client .slick-dots li button {
 	background-color: rgba(0, 95, 163, 0.4);
 }
 
-.client .slick-dots .slick-active button { /* поменяй hero на нужный класс */
+.client .slick-dots .slick-active button { 
 	background-color: rgba(0, 95, 163, 1);
 }
 
@@ -425,19 +447,19 @@ textarea {
 	margin-right: 35px;
 }
 
-.comment .slick-dots li button { /* поменяй hero на нужный класс */
+.comment .slick-dots li button { 
 	background-color: rgba(0, 95, 163, 0.4);
 }
 
-.comment .slick-dots .slick-active button { /* поменяй hero на нужный класс */
+.comment .slick-dots .slick-active button { 
 	background-color: rgba(0, 95, 163, 1);
 }
 
-.comment .slick-arrow { /* поменяй hero на нужный класс */
+.comment .slick-arrow { 
 	background-color: rgba(0, 95, 163, 0.2);
 }
 
-.comment .slick-arrow:hover {  /* поменяй hero на нужный класс */
+.comment .slick-arrow:hover {  
 	background-color: rgba(0, 95, 163, 1);
 }
 
@@ -486,6 +508,11 @@ textarea {
 
 .contact-link {
 	display: flex;
+	transition: .3s;
+}
+
+.contact-link:hover{
+	transform: translateY(-5px);
 }
 
 .contact__items-right {
@@ -526,6 +553,13 @@ textarea {
 	padding: 15px 20px;
 	background: #005FA3;
 	color: #fff;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.btn-contrac:hover{
+	box-shadow: 3px 4px 5px 0 #0b4066;
+	text-decoration: underline;
 }
 
 /* contact */
@@ -555,3 +589,5 @@ textarea {
 	line-height: 19px;
 	text-align: right;
 }
+
+
